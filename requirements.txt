@@ -1,0 +1,14 @@
+sgp4
+requests
+pandas>=2.2.3
+numpy>=2.1.0
+scikit-learn
+plotly
+streamlit
+fastapi
+uvicorn
+scipy
+python-dotenv
+apscheduler
+joblib
+matplotlib
