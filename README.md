@@ -1,28 +1,12 @@
-# 🛰️ Orbital Traffic Intelligence System
+# Orbital Traffic AI
 
-An AI-powered orbital monitoring platform that tracks satellites,
-predicts collision risks, detects anomalies, and visualizes
-orbital traffic around Earth.
+AI-Based Orbital Traffic Intelligence and Satellite Collision Risk Prediction System
 
-## Quick start
-```bash
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-cp .env.example .env          # fill in credentials
-python ingestion/fetch_tle.py # fetch satellite data
-streamlit run dashboard/app.py
-```
+## Features
 
-## Project structure
-```
-orbital-traffic-ai/
-├── data/           raw TLE files, SQLite DB
-├── ingestion/      fetch + parse TLE data
-├── propagation/    SGP4 orbit propagation
-├── analytics/      conjunction + congestion analysis
-├── ml/             risk classifier, anomaly detector
-├── api/            FastAPI backend
-├── dashboard/      Streamlit UI
-└── notebooks/      research notebooks
-```
+- Satellite Tracking
+- Orbit Propagation using SGP4
+- Conjunction Detection
+- Collision Risk Prediction
+- Orbital Congestion Analysis
+- Interactive Dashboard
